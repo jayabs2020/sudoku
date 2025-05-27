@@ -37,7 +37,13 @@ Epoch 5/5
 WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
 Model saved as digit_classifier.h5
  ```
-6. Launch the application to solve Sudoku
+6. Launch the application to solve Sudoku in CLI
 ```bash
     python solve.py
  ```
+7. Launch the application to solve Sudoku using camera input
+```bash
+    python sudoku_solver.py
+ ```
+
+
